@@ -24,9 +24,34 @@
 </head>
 
 <body>
-	
-	<h1>Jared is better than Kirk at League</h1>
-	<p> The Truth hurts man</p>
+
+	<div id="navbar">
+	  <a href="#" onclick= "topFunction()" >Home</a>
+	  <a href="http://www.youtube.com">Stuff2</a>
+	  <a href="#">Stuff3</a>
+	</div>	
+	<h1>9 + 10 = 21</h1>
+	<p id = "name"> Jared's Website</p>
+<!-- 	<img src="/images/jared.jpg" alt="Avatar">
+ -->
+	<p> The Truth hurts man asldfjlkjsdfl</p>
 	<p id = "second"> HIHIHI</p>
+
 </body>
+
+<script src="/js/scripts.js"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+
+function myFunction() {
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </html>

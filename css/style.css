@@ -1,12 +1,68 @@
+#navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #EAE5B4; /* Dark background color */
+  opacity: .3;
+ filter: alpha(opacity=50);
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+/*img {
+  border-radius: 50%;
+  max-width:13%;
+  height:auto;
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute; top:370px;
+  right: 43%;/*change here*/
+}
+
+
 h1 {
 	text-align: center;
 	color: pink;
 	font-size: 40px;
+	padding: 100px 0px;
+}
+body {
+	background-image: url("/images/lights.jpg");
+}
+#name{
+	color: pink;
+	text-align: center;
+	font-size: 40px;
+
 }
 p {
 	color: #0000FF;
+
 }
 #second {
 	color:grey;
 	font-size: 70px;
+/*	padding: 1000px 1000px;
+*/}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
